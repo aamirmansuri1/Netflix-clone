@@ -1,0 +1,221 @@
+.bg1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg1 form {
+    /* border: 0.5px solid black;
+    padding: 20px;
+    background-color: #1d165f;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px black;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
+    color: white; 
+    border: 0.5px solid black;
+    background-color: rgba(0,0,0,.75);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 60px 68px 40px;
+}
+
+.bg1 h1{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.bg1 .login {
+    padding-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.bg1 .login label {
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg1 .login input {
+   width: 100%;
+   height: 50px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+}
+
+
+
+.bg1 .lgn1 {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:15px;
+}
+
+
+.bg1 .lgn1 label {
+    width: auto;
+    float: none;
+    display: flex;
+    align-items: center;
+}
+
+.bg1 .lgn1 input {
+    width: 20px;
+    height: 20px;
+    padding: 0px!important;
+    margin: 0px 10px 0px 0px;
+    
+}
+
+.bg1 .btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1 button {   
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+}
+
+
+.set_icon {
+    position: relative;
+}
+
+svg.eye_icon {
+    color: white !important;
+    position: absolute;
+    top: 42% !important;
+    right: 16px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .bg1 form {
+        color: white;
+        border: 0.5px solid black;
+        background-color: rgba(0,0,0,.75);
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 25px 25px;
+    }
+    .bg1 .lgn1 label {
+        font-size: 13px;
+    }
+    .bg1 .login label {
+        margin-bottom: 7px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .bg1 h1 {
+        margin: 0px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .bg1 .login input {
+        height: 50px;
+        margin-right: 5px;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .bg1 form {
+        color: white;
+        border: 0.5px solid black;
+        background-color: rgba(0,0,0,.75);
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 25px 25px;
+    }
+    .bg1 .lgn1 label {
+        font-size: 13px;
+    }
+    .bg1 .login label {
+        margin-bottom: 7px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .bg1 h1 {
+        margin: 0px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .bg1 .login input {
+        height: 50px;
+        margin-right: 5px;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    .bg1 form {
+        color: white;
+        border: 0.5px solid black;
+        background-color: rgba(0,0,0,.75);
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 25px 25px;
+    }
+    .bg1 .lgn1 label {
+        font-size: 13px;
+    }
+    .bg1 .login label {
+        margin-bottom: 7px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .bg1 h1 {
+        margin: 0px;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .bg1 .login input {
+        height: 50px;
+        margin-right: 5px;
+    }
+}

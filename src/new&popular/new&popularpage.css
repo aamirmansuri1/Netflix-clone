@@ -1,0 +1,49 @@
+.body1{
+    background-color: black;
+}
+
+.movie {
+    background-color: black;
+    padding: 10px 10px 0px 10px;
+    padding-top: 35px;
+}
+
+.movie h6{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.movie .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+   
+    width: 0rem;
+    height: 0rem;
+   
+}
+
+.movie .py-5 {
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+
+.movie .px-3 {
+    padding-right: 6px!important;
+    padding-left: 0px!important;
+}
+
+.movie .m-2 {
+    margin: 0px!important;
+}
+
+.movie .p-carousel .p-carousel-indicators {
+    padding: 0rem;
+}

@@ -1,0 +1,103 @@
+.body1{
+    background-color: black;
+}
+
+.movie {
+    background-color: black;
+    padding: 10px 10px 0px 10px;
+    padding-top: 35px;
+}
+
+.movie h6{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.movie .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+   
+    width: 0rem;
+    height: 0rem;
+   
+}
+
+.iconSave {
+    position: absolute;
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    top: 28px;
+    z-index: 99999;
+}
+.iconSave :hover {
+    /* color: red; */
+}
+.movie .m-2 a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+ }
+ 
+.movie .m-2 a:hover::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 70px solid rgba(229, 9, 20, 1);
+    border-left: 70px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 767px)  {
+    .imageBackground {
+        height: 30vh !important;
+    }
+    .movie {
+        padding-top: 35px !important;
+    }
+    .img {
+        width: 100% !important;
+        height: 170px !important;
+        object-fit: cover !important;
+    }
+    .iconSave {
+        position: absolute;
+        right: 15px;
+        font-size: 25px;
+        cursor: pointer;
+        background: none;
+        top: 32px;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .imageBackground {
+        height: 50vh !important;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    .imageBackground {
+        height: 50vh !important;
+    }
+    .img {
+        width: 100% !important;
+        height: 170px !important;
+        object-fit: cover;
+    }
+}
