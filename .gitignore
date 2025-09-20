@@ -3,7 +3,7 @@
 
 # build outputs
 /dist
-/build
+build
 
 # production
 *.log
